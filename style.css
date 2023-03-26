@@ -1,0 +1,67 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 2rem;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+section {
+	padding: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 0.5rem;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 1rem;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 2rem;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+/* Anime-themed styles */
+body {
+	background-image: url('https://i.imgur.com/9IcM1B2.png');
+	background-repeat: repeat;
+}
+
+header {
+	background-image: url('https://i.imgur.com/1zQK9Ti.jpg');
+	background-size: cover;
+}
+
+h1, h2 {
+	font-family: 'Kaushan Script', cursive;
+}
+
