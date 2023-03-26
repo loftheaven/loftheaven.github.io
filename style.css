@@ -1,67 +1,116 @@
+/* Global styles */
 body {
-	font-family: 'Montserrat', sans-serif;
-	background-color: #f7f7f7;
-	color: #333;
+    background-color: #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
 }
 
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 2rem;
-	text-align: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
-h1 {
-	font-size: 3rem;
-	margin-bottom: 2rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
+/* Header styles */
+.header {
+    background-image: url('https://i.imgur.com/XUxt29k.jpg');
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-section {
-	padding: 2rem;
-	margin-bottom: 2rem;
-	border-radius: 0.5rem;
-	background-color: #fff;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.header h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
-h2 {
-	font-size: 2rem;
-	margin-bottom: 1rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
+/* Bio section styles */
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
 }
 
-ul {
-	list-style: none;
-	margin-bottom: 1rem;
+.bio h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
-li {
-	margin-bottom: 0.5rem;
+.bio p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+    text-align: center;
 }
 
-footer {
-	background-color: #333;
-	color: #fff;
-	padding: 2rem;
-	text-align: center;
-	font-size: 0.8rem;
+/* Anime list styles */
+.anime-list {
+    margin-top: 2rem;
 }
 
-/* Anime-themed styles */
-body {
-	background-image: url('https://i.imgur.com/9IcM1B2.png');
-	background-repeat: repeat;
+.anime-list h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
-header {
-	background-image: url('https://i.imgur.com/1zQK9Ti.jpg');
-	background-size: cover;
+.anime-list ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-h1, h2 {
-	font-family: 'Kaushan Script', cursive;
+.anime-list li {
+    margin: 1rem;
 }
 
+.anime-list img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .anime-list li {
+        margin: 0.5rem;
+    }
+
+    .anime-list img {
+        width: 150px;
+        height: 225px;
+    }
+}
