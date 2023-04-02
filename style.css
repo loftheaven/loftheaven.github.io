@@ -1,55 +1,24 @@
-/* Global Styles */
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-body {
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	color: #333;
-}
-
-/* Header */
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 1rem;
-}
-
-/* Main */
-main {
-	margin: 2rem 0;
-}
-
-section {
-	margin-bottom: 2rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-bottom: 1rem;
-}
-
-ol {
-	list-style: none;
-}
-
-li {
-	margin-bottom: 0.5rem;
-}
-
-/* Footer */
-footer {
-	background-color: #333;
-	color: #fff;
-	padding: 1rem;
-}
-
-/* Container */
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 0 1rem;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  
+  .profile {
+    position: relative;
+    z-index: 1;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
